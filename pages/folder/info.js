@@ -1,0 +1,1 @@
+this route would be site.com/folder/info  
