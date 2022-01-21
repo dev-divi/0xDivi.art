@@ -1,8 +1,12 @@
+import styles from '../styles/Home.module.css'
+
 const Footer = () => {
     return ( 
-        <div> 
-            Copyright 2022 0xDivi 
-        </div>
+        <section className={styles.footer}>  
+            
+
+            ©2022 
+        </section>
      );
 }
  

@@ -1,3 +1,8 @@
+/* 
+This file is redundant. I'd rather use utils.module.css. 
+The only css I'm using in here I thin is .footer 
+*/
+
 .container {
   padding: 0 2rem;
 }
@@ -15,10 +20,11 @@
 .footer {
   display: flex;
   flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  padding: .1rem 0;
+  border-top: 1px solid black;
   justify-content: center;
   align-items: center;
+  font-size: 1em;
 }
 
 .footer a {
