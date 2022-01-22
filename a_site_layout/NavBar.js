@@ -18,12 +18,13 @@ const NavBar = () => {
               <Link href="/">
                 <a className={utilStyles.colorInherit}>{name}</a>
               </Link>
-            
+            {/* 
             <section className={utilStyles.navbar_links}>
               <Link href="/"> - Home </Link>  
               <Link href="/about"> - About </Link>  
               <Link href="/texts"> - Texts </Link>  
             </section>
+            */}
             </h2>
             </section>
 
