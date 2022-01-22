@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import utilStyles from '../styles/utils.module.css'
-import Layout, { siteTitle } from '../a_site_layout/Layout'
+import Layout, { siteTitle } from './Layout'
 import styles from '../styles/Home.module.css'
+import SiteSocial from '../pages/MainSite/SiteSocial'
 
 const name = '0xDivi.art'
 
@@ -18,13 +19,15 @@ const NavBar = () => {
               <Link href="/">
                 <a className={utilStyles.colorInherit}>{name}</a>
               </Link>
-            {/* 
+              <Link href="/"> - Home </Link>
+              <Link href="/about"> - About </Link>
+              {/* 
+              <Link href=""> - Social </Link> 
+              <Link href=""> - Gaming </Link> 
+              */} 
             <section className={utilStyles.navbar_links}>
-              <Link href="/"> - Home </Link>  
-              <Link href="/about"> - About </Link>  
-              <Link href="/texts"> - Texts </Link>  
             </section>
-            */}
+            
             </h2>
             </section>
 
