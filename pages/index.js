@@ -73,14 +73,14 @@ function Book(){
 
 export default function Home() {
   return (
-    <div>
+    <>
       <p> 
           <Lazer /> 
           <Texts /> 
           <Book />
           {/*<Letters />*/}
-          <br /> <br /> 
+          <br /> <br /> <br /> 
       </p> 
-    </div> 
+    </> 
   )
 }

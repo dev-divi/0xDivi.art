@@ -1,10 +1,9 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import utilStyles from '../styles/utils.module.css'
-import Layout, { siteTitle } from './Layout'
+import Layout, { siteTitle, name } from './Layout'
 import styles from '../styles/Home.module.css'
 
-const name = '0xDivi.art'
 
 const NavBar = () => {
     return ( 

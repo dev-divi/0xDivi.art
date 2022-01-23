@@ -12,7 +12,7 @@ function Info(){
       <h3></h3>
       <span onClick={handleToggle}>info🟢 </span>
       {showDetail && <p>
-        -<AboutInfo /> -
+        <AboutInfo />
         </p>}
     </React.Fragment> 
     )
@@ -45,12 +45,12 @@ return (
 }   
 const About = () => {
     return ( 
-        <div> 
+        <> 
             <Info />
             <Projects />
-            <Social /> 
-            <Footer />
-        </div>
+            <Social /> <br /><br />
+            <Footer /><br /> 
+        </>
      );
 }
  
