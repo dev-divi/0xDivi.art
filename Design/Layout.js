@@ -2,7 +2,7 @@ import Footer from "./Footer";
 import Header from "./Header";
 import styles from '../styles/layout.module.css';
 
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = '0xDivi.art'
 
 const Layout = ( { children } ) => {
     return ( 

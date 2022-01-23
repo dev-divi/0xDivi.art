@@ -1,4 +1,4 @@
-const SiteProjects = () => {
+const AboutProjects = () => {
     return ( 
       <p>
         {/* 🧊 Mystery Cube Club */} 
@@ -13,4 +13,4 @@ const SiteProjects = () => {
      );
 }
  
-export default SiteProjects;
+export default AboutProjects;

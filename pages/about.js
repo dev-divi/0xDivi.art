@@ -1,6 +1,10 @@
+import React, {useState} from 'react';
+
 import Footer from "../Design/Footer";
 import AboutInfo from "./MainAbout/AboutInfo"
-function info(){
+import SiteSocial from './MainAbout/AboutSocial';
+import AboutProjects from './MainAbout/AboutProjects';
+function Info(){
     const [showDetail,setShowDetail] = useState(false);
     const handleToggle = () => setShowDetail(!showDetail);
     return (
@@ -12,18 +16,39 @@ function info(){
         </p>}
     </React.Fragment> 
     )
-  } 
+  }
+function Social(){
+const [showDetail,setShowDetail] = useState(false);
+const handleToggle = () => setShowDetail(!showDetail);
+return (
+<React.Fragment>
+    <h3></h3>
+    <span onClick={handleToggle}>social🟢</span>
+    {showDetail && 
+    <SiteSocial /> 
+    }
+</React.Fragment>)
+}  
+
+function Projects(){
+const [showDetail,setShowDetail] = useState(false);
+const handleToggle = () => setShowDetail(!showDetail);
+
+return (
+<React.Fragment>
+    <h3></h3>
+    <span onClick={handleToggle}>projects🟢</span>
+    {showDetail && 
+    <AboutProjects /> 
+    }
+</React.Fragment>)
+}   
 const About = () => {
     return ( 
         <div> 
-            {/* <h1> About </h1> */} 
-            <p> This is a website about sharing critical, consolidated meaning. </p> 
-            <p> The text on the homepage is interactive even though it does not look it. </p> 
-            <p> The Letters Project [ To be added ] is composed of interactive pieces that change when you click on certain words.</p>
-
-            <p> Please join the email list to be notified of new texts, letters, books, and games. </p>
-            <p> You can also follow site updates on twitter. </p>
-
+            <Info />
+            <Projects />
+            <Social /> 
             <Footer />
         </div>
      );

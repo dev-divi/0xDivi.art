@@ -1,4 +1,4 @@
-const SiteSocial = () => {
+const AboutSocial = () => {
     return (
         <p> 
         {/* 
@@ -14,4 +14,4 @@ const SiteSocial = () => {
      );
 }
  
-export default SiteSocial;
+export default AboutSocial;

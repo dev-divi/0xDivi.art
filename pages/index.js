@@ -4,8 +4,6 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import React, {useState} from 'react';
 import SiteTexts from './MainSite/SiteTexts';
-import SiteSocial from './MainSite/SiteSocial';
-import SiteProjects from './MainSite/SiteProjects';
 import SiteBook from './MainSite/SiteBook';
 import SiteLazer from './MainSite/SiteLazer';
 import SiteLetters from './MainSite/SiteLetters';
@@ -44,32 +42,7 @@ function Texts(){
   </React.Fragment> 
   )
 }  
-function Social(){
-  const [showDetail,setShowDetail] = useState(false);
-  const handleToggle = () => setShowDetail(!showDetail);
-  return (
-  <React.Fragment>
-    <h3></h3>
-    <span onClick={handleToggle}>social🔴</span>
-    {showDetail && 
-    <SiteSocial /> 
-    }
-  </React.Fragment>)
-}  
 
-function Projects(){
-  const [showDetail,setShowDetail] = useState(false);
-  const handleToggle = () => setShowDetail(!showDetail);
-
-  return (
-  <React.Fragment>
-    <h3></h3>
-    <span onClick={handleToggle}>projects⚪</span>
-    {showDetail && 
-      <SiteProjects /> 
-    }
-  </React.Fragment>)
-}
 function Book(){
   const [showDetail,setShowDetail] = useState(false);
   const handleToggle = () => setShowDetail(!showDetail);
@@ -104,8 +77,6 @@ export default function Home() {
       <p> 
           <Lazer /> 
           <Texts /> 
-          {/*<Social />  */}
-          {/*<Projects />*/}
           <Book />
           {/*<Letters />*/}
           <br /> <br /> 
