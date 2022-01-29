@@ -4,12 +4,10 @@ import utilStyles from '../styles/utils.module.css'
 import Layout, { siteTitle, name } from './Layout'
 import styles from '../styles/Home.module.css'
 
-
 const NavBar = () => {
     return ( 
         <nav className={utilStyles.siteheader}>
             <section className={utilStyles.headingMd}>
-
             <Head>
                 <title>{siteTitle}</title> {/* tab title */}
             </Head>
@@ -25,11 +23,8 @@ const NavBar = () => {
               */} 
             <section className={utilStyles.navbar_links}>
             </section>
-            
             </h2>
             </section>
-
-
         </nav> 
      );
 }

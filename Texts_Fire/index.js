@@ -1,7 +1,7 @@
 const Beeps = () => {
     return (  
         <div> 
-            <h1> All Writings </h1>
+            <h1> This shouldn't be here  </h1>
         </div>
     );
 }

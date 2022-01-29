@@ -4,7 +4,7 @@ const NotFound = () => {
             The page you had hoped to navigate to is still being created, or perhaps long ago was destroyed. <br /> <br />
 
             My support bot should probably be able to help you with any questions you have. 
-            <iframe src="https://trinket.io/embed/python/a6992aeda3?outputOnly=true&runOption=run" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+            <iframe src="https://trinket.io/embed/python/a6992aeda3?outputOnly=true&runOption=run" width="100%" height="600"  marginwidth="0" marginheight="0" allowfullscreen></iframe>
             <br /><br />
             Data in, <br />
             data out,  <br />

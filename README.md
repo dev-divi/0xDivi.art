@@ -1,7 +1,61 @@
 # 0xDivi.art
 
-npm install gray-matter
+# TBA 
 
+I need to set a <span> area that changes the pointer on hover 
+
+I'd like to make a text all page that you don't need to click on the button to access 
+All I have to do is hardcode it at the top of texts with the same formatting 
+
+# ###########
+npm install gray-matter
+npm install remark-html
+npm install date-fns
+
+# ###########
+
+ReferenceError: getSortedPostsData is not defined
+^ import { getSortedPostsData } from '../library_system/texts'
+
+
+
+# ### 
+
+TypeError: Cannot read properties of undefined (reading 'map')
+
+^this usually means I need this function in that file 
+
+
+export async function getStaticProps() {
+    const allPostsData = getSortedPostsData()
+    return {
+        props: {
+            allPostsData
+        }
+    }
+}
+
+# ### 
+
+error- Allpostsdata 
+
+^probably forgot to pass in 
+const yay = ({ allPostsData }) => {
+
+# ###
+
+error - ./library_system/magic.js:1:0
+Module not found: Can't resolve 'fs'
+
+^ usually means the folder doesn't exist 
+
+# ###
+
+RangeError: Invalid time value
+^ didn't format the date right on a .md file 
+
+
+# ###########
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

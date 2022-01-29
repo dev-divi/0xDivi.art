@@ -3,15 +3,20 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import React, {useState} from 'react';
-import SiteTexts from './MainSite/SiteTexts';
+//import SiteTexts from './MainSite/SiteTexts';
 import SiteBook from './MainSite/SiteBook';
 import SiteLazer from './MainSite/SiteLazer';
 import SiteLetters from './MainSite/SiteLetters';
-import utilStyles from '../styles/utils.module.css'
 
-import { getSortedPostsData } from '../lib/posts'
-//Load texts system
-//import { getSortedPostsData } from '../library_system/texts.js'
+
+import utilStyles from '../styles/utils.module.css';
+import Date from '/library_system/date';
+//load texts from 
+import { getSortedPostsData } from '../library_system/texts'
+//import { getSortedPostsDataMagic } from '../library_system/magic'
+//import { getSortedPostsDataLetters } from '../library_system/letters'
+
+
 //🟡 
 //🟠
 //🟣
@@ -44,20 +49,6 @@ function Lazer(){
   </React.Fragment> 
   )
 } 
-function Texts(){
-  const [showDetail,setShowDetail] = useState(false);
-  const handleToggle = () => setShowDetail(!showDetail);
-  return (
-   <React.Fragment>
-    <h3></h3>
-    <span onClick={handleToggle}>texts🟢  </span>
-    {showDetail && <p>
-      <SiteTexts /> 
-      </p>}
-  </React.Fragment> 
-  )
-}  
-
 function Book(){
   const [showDetail,setShowDetail] = useState(false);
   const handleToggle = () => setShowDetail(!showDetail);
@@ -84,31 +75,72 @@ function Book(){
       }
     </React.Fragment>)
     }
+    function TextsBak(){
+      //const [showDetail,setShowDetail] = useState(false);
+      //const handleToggle = () => setShowDetail(!showDetail);
+      return (
+       <React.Fragment>
+        <h3></h3>
+        <span onClick={handleToggle}>texts🟢  </span>
+        {showDetail && <p>
+          <SiteTexts /> 
+          </p>}
+      </React.Fragment> 
+      )
+    }  
+    
+ 
 export default function Home({ allPostsData }) {
+
+  const [showDetail,setShowDetail] = useState(false);
+  const handleToggle = () => setShowDetail(!showDetail);   
   return (
     <>
-    {/* Add this <section> tag below the existing <section> tag */}
-    <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
-      </section>
+
+
       <p> 
-          <Lazer /> 
-          <Texts /> 
+          <Lazer />
+          <React.Fragment>
+            <h3></h3>
+            <span onClick={handleToggle}>texts🟢  </span>
+            {showDetail && <p>
+
+              <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+                    <h2 className={utilStyles.headingLg}>  </h2>
+
+                        <Link href={`/alltexts`}>
+                        <a>View All Texts</a>
+                        </Link> 
+                        <br />
+                        {/* <small className={utilStyles.lightText}>
+                            January 
+            </small> */} 
+
+                </section>
+              
+                {/* Texts autoload */}
+                <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+                    <h2 className={utilStyles.headingLg}>  </h2>
+                    <ul className={utilStyles.list}>
+                    {allPostsData.map(({ id, date, title, category }) => (
+                        <li className={utilStyles.listItem} key={id}>
+                        {category} - 
+                        <Link href={`/texts/${id}`}>
+                        <a>{title}</a>
+                        </Link> 
+                        <br />
+                        <small className={utilStyles.lightText}>
+                            <Date dateString={date} />
+                        </small>
+                        </li>
+                    ))}
+                    </ul>
+                </section>
+              </p>}
+          </React.Fragment>  
+          {/*<Texts /> */}
           <Book />
-          {/*<Letters />*/}
+          <Letters />
           <br /> <br /> <br /> 
       </p> 
     </> 

@@ -1,5 +1,5 @@
 ---
-category: "thought" 
+category: "Thought" 
 title: "Simple System"
 date: "2022-01-26"
 ---
