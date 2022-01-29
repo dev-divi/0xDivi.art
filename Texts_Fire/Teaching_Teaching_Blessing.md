@@ -4,7 +4,16 @@ title: "Teaching Blessing"
 date: "2022-01-28"
 ---
 
-Just because it is wise to listen to younger people, 
+When you try to teach others what you're learning right now,  
+it's kind of like stabbing yourself a bit, it only hurts a bit and makes you feel more alone
+
+Scripture says we should not try to teach our elders, its not our job 
+
+and outside of scripture, 
+it injures the elder mans pride and ego if you prove him wrong, it weakens his confidence and stability and structure, 
+because you are within his structure, and now you are attacking the structure from the inside
+
+Just because it is wise to listen to younger people,  
 Does not mean you need to teach your elder the benefit of listening to younger people 
 
 It takes a while to accept but you ought not to try to help people who do not want help 

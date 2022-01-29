@@ -108,8 +108,15 @@ export default function Home({ allPostsData }) {
                     <h2 className={utilStyles.headingLg}>  </h2>
 
                         <Link href={`/alltexts`}>
-                        <a>View All Texts</a>
+                        <a>View All Texts</a> 
                         </Link> 
+                        {/* 
+                            Latest Text: 
+
+                              ---------------------
+                              -Insert latest text -
+                              ---------------------
+                        */}
                         <br />
                         {/* <small className={utilStyles.lightText}>
                             January 
@@ -123,7 +130,7 @@ export default function Home({ allPostsData }) {
                     <ul className={utilStyles.list}>
                     {allPostsData.map(({ id, date, title, category }) => (
                         <li className={utilStyles.listItem} key={id}>
-                        {category} - 
+                        [{category}]&nbsp; 
                         <Link href={`/texts/${id}`}>
                         <a>{title}</a>
                         </Link> 

@@ -1,10 +1,10 @@
 ---
 category: "Words" 
-title: "Receptive_In_Tune"
+title: "Receptive In Tune"
 date: "2022-01-27"
 ---
 
-More Receptive More in Tunee 
+More Receptive More in Tunee    
 
 More Aligned with the Divine Song 
 
