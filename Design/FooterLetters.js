@@ -1,13 +1,13 @@
 import styles from '../styles/layout.module.css';
 
-const FooterArticle = () => {
+const FooterLetters = () => {
     return ( 
         <>
             <section className={styles.footer}>  
-                link Home - Link All Posts 
+                link Home - Link All Letters [uncreated]
             </section>
         </>
      );
 }
  
-export default FooterArticle;
+export default FooterLetters;

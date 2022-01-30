@@ -7,6 +7,8 @@ import Layout from '/Design/Layout'
 import utilStyles from '/styles/utils.module.css'
 import Date from '/library_system/date';
 
+import FooterArticle from '../../Design/FooterArticle';
+
 
 export default function Post({ postData }) {
   return (
@@ -21,6 +23,9 @@ export default function Post({ postData }) {
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
+
+      <FooterArticle /> 
+      
     </>
   )
 }

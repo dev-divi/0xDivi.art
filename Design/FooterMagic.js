@@ -1,13 +1,13 @@
 import styles from '../styles/layout.module.css';
 
-const FooterArticle = () => {
+const FooterMagic = () => {
     return ( 
         <>
             <section className={styles.footer}>  
-                link Home - Link All Posts 
+                link Home - Link All Pages [uncreated]
             </section>
         </>
      );
 }
  
-export default FooterArticle;
+export default FooterMagic;

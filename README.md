@@ -2,13 +2,9 @@
 
 # TBA 
 
-On Hover: I need to set a <span> area that changes the pointer on hover 
-
 Add [Home], [All Texts] to footer of posts located at /pages/texts/[id].js
 
-
-I'd like to make a text all page that you don't need to click on the button to access 
-All I have to do is hardcode it at the top of texts with the same formatting 
+underline the page on /alltexts 
 
 # ###########
 
