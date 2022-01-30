@@ -41,7 +41,7 @@ function Lazer(){
   return (
    <React.Fragment>
     <h3></h3>
-    <span onClick={handleToggle}>fire lazer🟢 </span>
+    <span onClick={handleToggle} className={utilStyles.thepointer}>fire lazer🟢 </span>
     {showDetail && <p>
       -<SiteLazer /> -
       </p>}
@@ -55,7 +55,7 @@ function Book(){
   return (
   <React.Fragment>
     <h3></h3>
-    <span onClick={handleToggle}>book🟢</span>
+    <span onClick={handleToggle} className={utilStyles.thepointer}>book🟢</span>
     {showDetail && 
       <SiteBook /> 
     }
@@ -68,7 +68,7 @@ function Book(){
     return (
     <React.Fragment>
       <h3></h3>
-      <span onClick={handleToggle}>letters🟢</span>
+      <span onClick={handleToggle}className={utilStyles.thepointer}>letters🟢</span>
       {showDetail && 
         <SiteLetters /> 
       }
@@ -80,7 +80,7 @@ function Book(){
       return (
        <React.Fragment>
         <h3></h3>
-        <span onClick={handleToggle}>texts🟢  </span>
+        <span onClick={handleToggle}className={utilStyles.thepointer}>texts🟢  </span>
         {showDetail && <p>
           <SiteTexts /> 
           </p>}
@@ -101,16 +101,15 @@ export default function Home({ allPostsData }) {
           <Lazer />
           <React.Fragment>
             <h3></h3>
-            <span onClick={handleToggle}>texts🟢  </span>
+            <span onClick={handleToggle}className={utilStyles.thepointer}>texts🟢  </span>
             {showDetail && <p>
 
               <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                     <h2 className={utilStyles.headingLg}>  </h2>
-
-                        <Link href={`/alltexts`}>
-                        <a>View All Texts</a> 
-                        </Link> 
-                        {/* 
+                         <Link href={`/alltexts`}>
+                        <a><i>View All Texts</i></a> 
+                        </Link>
+                         {/* 
                             Latest Text: 
 
                               ---------------------
@@ -127,12 +126,14 @@ export default function Home({ allPostsData }) {
                 {/* Texts autoload */}
                 <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                     <h2 className={utilStyles.headingLg}>  </h2>
+                    
                     <ul className={utilStyles.list}>
+                      
                     {allPostsData.map(({ id, date, title, category }) => (
                         <li className={utilStyles.listItem} key={id}>
-                        [{category}]&nbsp; 
+                        
                         <Link href={`/texts/${id}`}>
-                        <a>{title}</a>
+                        <a>[{category}]&nbsp;-&nbsp;<i>{title}</i></a>
                         </Link> 
                         <br />
                         <small className={utilStyles.lightText}>

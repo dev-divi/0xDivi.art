@@ -1,6 +1,6 @@
 ---
 category: "" 
-title: "Site Guide"
+title: "🔮 Site Guide"
 date: "2022-01-01"
 ---
 

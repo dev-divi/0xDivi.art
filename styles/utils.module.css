@@ -57,3 +57,9 @@
   justify-content: right;
   align-items: right;
 }
+.linksUnderline a{
+  text-decoration: underline;
+}
+.thepointer{ 
+  cursor: pointer;
+}
