@@ -61,14 +61,15 @@ She will give you a garland to grace your head
     and present you with a glorious crown.”
 `
 #
+
 Ironic then how we are in the age of knowledge and yet wisdom is dwindling.
 
 The age of man's knowledge and wisdom is dwindling.
 
-`My people are destroyed for lack of knowledge: because thou hast rejected knowledge, I will also reject thee,`
-`lean not on your own understanding;`
-`you must not eat from the tree of the knowledge of good and evil, for when you eat from it you will certainly die.` 
-`For the written text brings death, but the Spirit gives life.`
+`My people are destroyed for lack of knowledge: because thou hast rejected knowledge, I will also reject thee,`  
+`lean not on your own understanding;`  
+`you must not eat from the tree of the knowledge of good and evil, for when you eat from it you will certainly die.`   
+`For the written text brings death, but the Spirit gives life.`  
 
 Man suffers for relying on his mind's knowledge and limited understanding. 
 Wisdom is a higher understanding. 

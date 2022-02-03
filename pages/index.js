@@ -101,7 +101,7 @@ export default function Home({ allPostsData }) {
           <Lazer />
           <React.Fragment>
             <h3></h3>
-            <span onClick={handleToggle}className={utilStyles.thepointer}>texts🟢  </span>
+            <span onClick={handleToggle}className={utilStyles.thepointer}>datapoints🟢  </span>
             {showDetail && <p>
 
               <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
