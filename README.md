@@ -4,15 +4,16 @@
 
 Add [Home], [All Texts] to footer of posts located at /pages/texts/[id].js
 
-underline the page on /alltexts 
+underline the page on /alltexts  
 
 # ###########
 
-className={utilStyles.thepointer}
-className={utilStyles.thepointer}
+className={utilStyles.thepointer}  
+className={utilStyles.thepointer}  
 
 # ###########
 
+[Texts have been temporarily? renamed to datapoints]  
 Texts loader: /library_system/texts.js   
 Posts location [calls loader]: /pages/texts/[id].js   
 Texts output location: /pages/index.js   
@@ -21,9 +22,10 @@ Texts all: /pages/alltexts.js
   
 # ###########
 
-npm install gray-matter   
-npm install remark-html   
-npm install date-fns   
+npm install html-react-parser  
+npm install gray-matter    
+npm install remark-html    
+npm install date-fns    
 
 # ###########
 
@@ -61,7 +63,7 @@ const yay = ({ allPostsData }) => {
 error - ./library_system/magic.js:1:0  
 Module not found: Can't resolve 'fs'  
 
-^ usually means the folder doesn't exist 
+^ usually means the folder doesn't exist  
 
 # ###
 

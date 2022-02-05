@@ -107,7 +107,7 @@ export default function Home({ allPostsData }) {
               <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                     <h2 className={utilStyles.headingLg}>  </h2>
                          <Link href={`/alltexts`}>
-                        <a><i>View All Texts</i></a> 
+                        <a><i>View All </i></a> 
                         </Link>
                          {/* 
                             Latest Text: 
