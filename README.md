@@ -22,6 +22,7 @@ Texts all: /pages/alltexts.js
   
 # ###########
 
+npm i react-mailchimp-subscribe
 npm install html-react-parser  
 npm install gray-matter    
 npm install remark-html    

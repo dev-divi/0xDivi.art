@@ -51,6 +51,7 @@ const About = () => {
             <Info />
             <Projects />
             <Social /> <br /><br />
+            
             <Footer /><br /> 
         </>
      );

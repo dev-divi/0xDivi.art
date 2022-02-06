@@ -1,3 +1,12 @@
+
+import MailchimpSubscribe from "react-mailchimp-subscribe"
+
+const url = "//Divenie.us14.list-manage.com/subscribe/post?u=b0ffda99389052cbadfd8c7ef&amp;id=37bf0e3da7";
+
+// simplest form (only email)
+const SimpleForm = () => <MailchimpSubscribe url={url}/>
+
+
 const AboutInfo = () => {
     return ( 
         <div>
@@ -13,8 +22,9 @@ const AboutInfo = () => {
             */ }
             <p> There is tons of useful content yet to be added here, and I am adding that material as fast as I can. <br /> 
                 Please join the email list to be notified of new texts, letters, books, and games. </p>
-           {/* <p> You can also follow site updates on twitter. </p>*/ }
-        </div>
+            
+            <SimpleForm /> 
+        </div> 
      );
 }
  

@@ -6,7 +6,7 @@ date: "2022-01-29"
 
 Below these explanations is a sample process of writing from today.  
 
-This process is invaluable to my life. There are days that strokes of great insight are found directly on the page, 
+This process is invaluable to my life. There are days that strokes of great insight are found directly on the page,  
 and other days like today in which little fruit is born on the page itself, but wherein wheels of cognition once rusted shut begin to turn on a dormant system in my brain, forced 
 to spin on their own, like the starting ignition of the engine of the car or chainsaw. After a long duration of this practice I have been able to tap into access of the creative flow, 
 a state that is felt by my entire perception of being, my entire world. There is no other state I would rather feel than the creative flow, and it can be accompanied by states of 

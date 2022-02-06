@@ -4,7 +4,7 @@ const AboutProjects = () => {
         {/* 🧊 Mystery Cube Club */} 
         <a href="https://lightdark.art/">💡lightdark</a>  
         <br /> 
-        <a href="https://heroorvillain.io/">😇hero or villain😈</a>  
+        <a href="https://heroorvillain.io/">😇hero or villain😈 [unreleased]</a>  
         <br /> 
         💴<a href="https://sorcerawr.com/theupdater2">updater</a>  
         <br /> 

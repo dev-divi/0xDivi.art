@@ -1,3 +1,9 @@
+---
+category: "Thought" 
+title: "Eren Jaegar"
+date: "2022-02-06"
+--- 
+
 Attack on Titan is destroying me as a person because Eren Jaegar's portrait is forcing me to look at my reflection in a way I cannot mask. 
 I am forced to look at myself at a way that terrifies me. 
 I am a devil of society. I am not the devil, but in what people think the devil is, I am the devil, I am their devil.  
