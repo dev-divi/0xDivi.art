@@ -55,7 +55,7 @@ function Book(){
   return (
   <React.Fragment>
     <h3></h3>
-    <span onClick={handleToggle} className={utilStyles.thepointer}>book🟢</span>
+    <span onClick={handleToggle} className={utilStyles.thepointer}>books🟢</span>
     {showDetail && 
       <SiteBook /> 
     }
@@ -106,7 +106,7 @@ export default function Home({ allPostsData }) {
 
               <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                     <h2 className={utilStyles.headingLg}>  </h2>
-                         <Link href={`/alltexts`}>
+                         <Link href={`/all`}>
                         <a><i>View All </i></a> 
                         </Link>
                          {/* 
@@ -147,7 +147,8 @@ export default function Home({ allPostsData }) {
           </React.Fragment>  
           {/*<Texts /> */}
           <Book />
-          <Letters />
+    
+            {/*<Letters />*/}
           <br /> <br /> <br /> 
       </p> 
     </> 

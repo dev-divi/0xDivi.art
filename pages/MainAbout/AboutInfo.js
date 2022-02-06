@@ -13,7 +13,7 @@ const AboutInfo = () => {
             */ }
             <p> There is tons of useful content yet to be added here, and I am adding that material as fast as I can. <br /> 
                 Please join the email list to be notified of new texts, letters, books, and games. </p>
-            <p> You can also follow site updates on twitter. </p>
+           {/* <p> You can also follow site updates on twitter. </p>*/ }
         </div>
      );
 }

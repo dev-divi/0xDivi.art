@@ -7,7 +7,7 @@ import Layout from '/Design/Layout'
 import utilStyles from '/styles/utils.module.css'
 import Date from '/library_system/date';
 
-import FooterArticle from '../../Design/FooterArticle';
+import FooterMagic from '../../Design/FooterMagic';
 
 
 export default function Post({ postData }) {
@@ -19,13 +19,12 @@ export default function Post({ postData }) {
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
         <div className={utilStyles.lightText}>
-          <Date dateString={postData.date} />
+          {/* <Date dateString={postData.date} /> */} 
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
 
-      <FooterArticle /> 
-      
+      <FooterMagic />       
     </>
   )
 }

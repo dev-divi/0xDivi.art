@@ -10,7 +10,7 @@ const SiteLazer = () => {
             ✔️✔️✔️✔️✔️✔️<br /> <br /> 
 
             You have initialized the TFTPGM Machine, The Future Traveler's Pocket Guide to the Matrix.   <br /> 
-            The TFTPGM contains entry data points, microtexts that lead to what is meaningful and aid the Future Traveler 
+            The TFTPGM contains entry datapoints, microtexts that lead to what is meaningful and aid the Future Traveler 
             against threat of informational warfare.<br />   
             The TFTPGM was created to aid in your escape from a system that wants you to believe that your life does not matter.<br />  
             <br /> 
