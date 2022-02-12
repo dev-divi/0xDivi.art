@@ -1,7 +1,7 @@
 # 0xDivi.art
 
 # TBA 
-
+a
 Add [Home], [All Texts] to footer of posts located at /pages/texts/[id].js
 
 underline the page on /alltexts  
@@ -22,6 +22,7 @@ Texts all: /pages/alltexts.js
   
 # ###########
 
+npm install next 
 npm i react-mailchimp-subscribe
 npm install html-react-parser  
 npm install gray-matter    
