@@ -63,7 +63,3 @@
 .thepointer{ 
   cursor: pointer;
 }
-#thecube{
-  width:400px; height: 400px; text-align: center; 
-  background-color: red;
-}

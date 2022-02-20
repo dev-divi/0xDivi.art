@@ -3,18 +3,17 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import React, {useState} from 'react';
-import SiteTexts from './MainSite/SiteTexts';
-import SiteBook from './MainSite/SiteBook';
-import SiteLazer from './MainSite/SiteLazer';
-//import SiteLetters from './MainSite/SiteLetters';
+//import SiteBook from './MainSite/SiteBook';
+import SiteWritings from './MainSite/SiteWritings';
 
-
+import SiteProjects from './MainSite/SiteProjects';
+import SiteSocial from './MainSite/SiteSocial'; 
+import SiteWebsites from './MainSite/SiteWebsites';
 import utilStyles from '../styles/utils.module.css';
 import Date from '/library_system/date';
-//load texts from 
+
+
 import { getSortedPostsData } from '../library_system/texts'
-//import { getSortedPostsDataMagic } from '../library_system/magic'
-//import { getSortedPostsDataLetters } from '../library_system/letters'
 
 //🟡 
 //🟠
@@ -35,19 +34,32 @@ export async function getStaticProps() {
   }
 }
 
-function Lazer(){
+function Writings(){
   const [showDetail,setShowDetail] = useState(false);
   const handleToggle = () => setShowDetail(!showDetail);
   return (
    <React.Fragment>
     <h3></h3>
-    <span onClick={handleToggle} className={utilStyles.thepointer}>init cube🟢 </span>
+    <span onClick={handleToggle} className={utilStyles.thepointer}>writings🟢{/* readings? */} </span>
     {showDetail && <p>
-      -<SiteLazer /> -
+      - <SiteWritings /> -
       </p>}
   </React.Fragment> 
   )
 } 
+function Socials(){
+  const [showDetail,setShowDetail] = useState(false);
+  const handleToggle = () => setShowDetail(!showDetail);
+  return (
+  <React.Fragment>
+      <h3></h3>
+      <span onClick={handleToggle} className={utilStyles.thepointer}>social🟢</span>
+      {showDetail && 
+      <SiteSocial /> 
+      }
+  </React.Fragment>)
+  }  
+  
 function Book(){
   const [showDetail,setShowDetail] = useState(false);
   const handleToggle = () => setShowDetail(!showDetail);
@@ -89,8 +101,21 @@ function Book(){
       </React.Fragment> 
       )
     }  
-    
+    function Projects(){
+      const [showDetail,setShowDetail] = useState(false);
+      const handleToggle = () => setShowDetail(!showDetail);
+      
+      return (
+        <React.Fragment>
+            <h3></h3>
+            <span onClick={handleToggle} className={utilStyles.thepointer}>projects🟢</span>
+            {showDetail && 
+            <SiteProjects />  
+            }
+        </React.Fragment>)
+      }   
  
+
 export default function Home({ allPostsData }) {
 
   const [showDetail,setShowDetail] = useState(false);
@@ -100,9 +125,13 @@ export default function Home({ allPostsData }) {
 
 
       <p> 
- 
-          <Lazer />
- 
+         
+          <Writings /> 
+          <Projects />
+          <Socials /> 
+
+          
+            {/*<Letters />*/}
           <br /> <br /> <br /> 
       </p> 
     </> 

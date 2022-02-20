@@ -1,7 +1,7 @@
 const AboutProjects = () => {
     return ( 
       <p>
-        <a href="https://0xdivi.art/">🧊 Mystery Cube Club </a>  
+        <a href="https://amysterycubesclub.com/"> 🧊 Mystery Cube Club </a>  
         <br /> 
         <a href="https://lightdark.art/">💡lightdark</a>  
         <br /> 
@@ -9,8 +9,8 @@ const AboutProjects = () => {
         <br /> 
         💴<a href="https://sorcerawr.com/theupdater2">updater</a>  
         <br /> 
-        🔮<a href="https://divinescripture.art/">scripture entropy</a>   
-      </p>
+        🔮<a href="https://divinescripture.art/">scripture entropy</a>  
+      </p> 
      );
 }
  

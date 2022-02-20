@@ -48,7 +48,7 @@ return (
 const About = () => {
     return ( 
         <> 
-            <Info />
+            {/* <Info /> */ } 
             <Projects />
             <Social /> <br /><br />
             
