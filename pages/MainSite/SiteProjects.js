@@ -1,6 +1,8 @@
 const AboutProjects = () => {
     return ( 
       <p>
+        <a href="https://divenie.com/"> 🟢 Divenie.com </a>  
+        <br /> 
         <a href="https://amysterycubesclub.com/"> 🧊 Mystery Cube Club </a>  
         <br /> 
         <a href="https://lightdark.art/">💡lightdark</a>  

@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
+import SiteProjects from './MainSite/SiteProjects'; 
 
+{/* 
 import Footer from "../Design/Footer";
 import AboutInfo from "./MainAbout/AboutInfo"
 import SiteSocial from './MainAbout/AboutSocial';
@@ -45,14 +47,17 @@ return (
     }
 </React.Fragment>)
 }   
+*/}
 const About = () => {
     return ( 
         <> 
-            {/* <Info /> */ } 
+            {/* <Info />
             <Projects />
             <Social /> <br /><br />
             
             <Footer /><br /> 
+             */ } 
+            <SiteProjects /> 
         </>
      );
 }

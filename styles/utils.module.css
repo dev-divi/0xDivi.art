@@ -57,8 +57,9 @@
   justify-content: right;
   align-items: right;
 }
-.linksUnderline a{
-  text-decoration: underline;
+.header0xdivi a:visited {
+  color:darkmagenta;
+
 }
 .thepointer{ 
   cursor: pointer;

@@ -42,7 +42,7 @@ function Writings(){
     <h3></h3>
     <span onClick={handleToggle} className={utilStyles.thepointer}>writings🟢{/* readings? */} </span>
     {showDetail && <p>
-      - <SiteWritings /> -
+      <SiteWritings /> 
       </p>}
   </React.Fragment> 
   )
@@ -53,7 +53,7 @@ function Socials(){
   return (
   <React.Fragment>
       <h3></h3>
-      <span onClick={handleToggle} className={utilStyles.thepointer}>social🟢</span>
+      <span onClick={handleToggle} className={utilStyles.thepointer}>socials🟢</span>
       {showDetail && 
       <SiteSocial /> 
       }
@@ -73,34 +73,6 @@ function Book(){
     }
   </React.Fragment>)
   }        
-  {/*
-  function Letters(){
-    const [showDetail,setShowDetail] = useState(false);
-    const handleToggle = () => setShowDetail(!showDetail);
-  
-    return (
-    <React.Fragment>
-      <h3></h3>
-      <span onClick={handleToggle}className={utilStyles.thepointer}>letters🟢</span>
-      {showDetail && 
-        <SiteLetters /> 
-      }
-    </React.Fragment>)
-    }
-  */} 
-    function TextsBak(){
-      //const [showDetail,setShowDetail] = useState(false);
-      //const handleToggle = () => setShowDetail(!showDetail);
-      return (
-       <React.Fragment>
-        <h3></h3>
-        <span onClick={handleToggle}className={utilStyles.thepointer}>texts🟢  </span>
-        {showDetail && <p>
-          <SiteTexts /> 
-          </p>}
-      </React.Fragment> 
-      )
-    }  
     function Projects(){
       const [showDetail,setShowDetail] = useState(false);
       const handleToggle = () => setShowDetail(!showDetail);
@@ -122,16 +94,10 @@ export default function Home({ allPostsData }) {
   const handleToggle = () => setShowDetail(!showDetail);   
   return (
     <>
-
-
       <p> 
-         
           <Writings /> 
-          <Projects />
+          {/*<Projects /> */} 
           <Socials /> 
-
-          
-            {/*<Letters />*/}
           <br /> <br /> <br /> 
       </p> 
     </> 

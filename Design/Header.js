@@ -15,12 +15,12 @@ const NavBar = () => {
               <Link href="/">
                 <a className={utilStyles.colorInherit}>{name}</a>
               </Link>
+              <span className={utilStyles.header0xdivi}>
+
               <Link href="/"> - Home </Link>
-              <Link href="/about"> - About </Link>
-              {/* 
-              <Link href=""> - Social </Link> 
-              <Link href=""> - Gaming </Link> 
-              */} 
+              <Link href="/projects"> - Projects </Link>
+         
+              </span>
             <section className={utilStyles.navbar_links}>
             </section>
             </h2>
