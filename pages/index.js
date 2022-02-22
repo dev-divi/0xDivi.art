@@ -1,19 +1,19 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Link from 'next/link'
+//import Head from 'next/head'
+//import Image from 'next/image'
+//import styles from '../styles/Home.module.css'
+//import Link from 'next/link'
 import React, {useState} from 'react';
-import SiteBook from './MainSite/SiteBook'; //unused 
+//import SiteBook from './MainSite/SiteBook'; //unused 
 import SiteWritings from './MainSite/SiteWritings';
 
-import SiteProjects from './MainSite/SiteProjects';
+//import SiteProjects from './MainSite/SiteProjects';
 import SiteSocial from './MainSite/SiteSocial'; 
-import SiteWebsites from './MainSite/SiteWebsites';
+//import SiteWebsites from './MainSite/SiteWebsites';
 import utilStyles from '../styles/utils.module.css';
-import Date from '/library_system/date';
+//import Date from '/library_system/date';
 
 
-import { getSortedPostsData } from '../library_system/texts'
+//import { getSortedPostsData } from '../library_system/texts'
 
 //🟡 
 //🟠
@@ -25,6 +25,7 @@ import { getSortedPostsData } from '../library_system/texts'
 //🟢
 //🔴
 
+{/* 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
   return {
@@ -33,7 +34,7 @@ export async function getStaticProps() {
     }
   }
 }
-
+*/}
 function Writings(){
   const [showDetail,setShowDetail] = useState(false);
   const handleToggle = () => setShowDetail(!showDetail);
@@ -59,7 +60,7 @@ function Socials(){
       }
   </React.Fragment>)
   }  
-  
+  {/* 
 function Book(){
   const [showDetail,setShowDetail] = useState(false);
   const handleToggle = () => setShowDetail(!showDetail);
@@ -72,7 +73,9 @@ function Book(){
       <SiteBook /> 
     }
   </React.Fragment>)
-  }        
+  }       
+  */} 
+  {/*}
     function Projects(){
       const [showDetail,setShowDetail] = useState(false);
       const handleToggle = () => setShowDetail(!showDetail);
@@ -86,7 +89,7 @@ function Book(){
             }
         </React.Fragment>)
       }   
- 
+ */} 
 
 export default function Home({ allPostsData }) {
 
