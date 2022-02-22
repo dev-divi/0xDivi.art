@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import React, {useState} from 'react';
-//import SiteBook from './MainSite/SiteBook';
+import SiteBook from './MainSite/SiteBook'; //unused 
 import SiteWritings from './MainSite/SiteWritings';
 
 import SiteProjects from './MainSite/SiteProjects';

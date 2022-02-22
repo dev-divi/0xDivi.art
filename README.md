@@ -1,10 +1,8 @@
 # 0xDivi.art
 
 # TBA 
-a
-Add [Home], [All Texts] to footer of posts located at /pages/texts/[id].js
 
-underline the page on /alltexts  
+a 
 
 # ###########
 
@@ -29,7 +27,12 @@ npm install gray-matter
 npm install remark-html    
 npm install date-fns    
 
+
 # ###########
+
+Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, 
+
+# ###
 
 ReferenceError: getSortedPostsData is not defined   
 ^ import { getSortedPostsData } from '../library_system/texts'
