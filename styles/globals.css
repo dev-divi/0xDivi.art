@@ -23,7 +23,7 @@ body {
   zoom: 1;
   background-image: url("style_images/eye.png"); 
   background-position: center;
-  background-repeat: repeat;
+  background-repeat:repeat-y;
 }
 
 a {
