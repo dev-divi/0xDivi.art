@@ -21,9 +21,9 @@ body {
   font-size: 1.5em;
   background-color:black;
   zoom: 1;
-  background-image: url("style_images/background.jpeg"); 
+  background-image: url("style_images/eye.png"); 
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 a {
