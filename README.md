@@ -1,8 +1,45 @@
 # 0xDivi.art
 
-# TBA 
+name is in Layout.js -- styling is in .headingLg in utils.module.css
+what font is at the top? - elemental
+# globals.css affects _app.js 
+# then modules.css affects 
 
-a 
+# SITE REDESIGN PLAN 
+
+MOVE MOST TEXTS TO AN ARCHIVE AND START OVER 
+REFINE DEFINITIVE CONTENT 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FLOW MASTERY IS MY NEW ART. 
+DIVINIE THE FLOW MASTER.
+FLOW MASTER DIVINIE. 
+
+MASTER FLOW.ART 
+THE ART OF FLOW BY DIVINI
+
+THE WAY I WILL FLOW. 
 
 # ###########
 

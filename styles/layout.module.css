@@ -3,6 +3,7 @@
   padding: 0 1rem;
   margin: 3rem auto 6rem;
   background-color: #fdf7e2;
+  background-image: url("style_images/bkg.jpg"); 
 }
 
 .header {
@@ -14,4 +15,8 @@
 
 .backToHome {
   margin: 3rem 0 0;
+}
+
+.name { 
+  color: white !important; 
 }

@@ -1,7 +1,25 @@
 const AboutProjects = () => {
     return ( 
       <p>
-        <a href="https://divenie.com/"> 🟢 Divenie.com </a>  
+        Card: <br /> <br /> 
+        username: TheFlowMaker. <br /> 
+        bio: Play Creatively. <br />  
+        mission: “Self Actualization through Art.”  <br /> 
+        goal: The Art of Mastery.  <br />  <br /> 
+
+        <h2> Coming Soon Projects, Goals, Aspirations: </h2> 
+         
+        Wood, Order, Geodes, Fire <br /> <br /> 
+        Element Sticks <br /> <br /> 
+        Gift Project <br /> <br /> 
+        ‘The Fire Staff’ Orb of Fire<br />  <br /> 
+        What is Flow?  <br />  <br /> 
+        Butterfly Emergence Artist Groups.. <br />  <br /> 
+        Magic Classes <br /> <br /> 
+        
+        <h1>All Projects  </h1>
+        <br /> 
+        <a href="https://divicorner.art/"> 🟢 Divi's Corner </a>
         <br /> 
         <a href="https://amysterycubesclub.com/"> 🧊 Mystery Cube Club </a>  
         <br /> 
@@ -12,6 +30,10 @@ const AboutProjects = () => {
         💴<a href="https://sorcerawr.com/theupdater2">updater</a>  
         <br /> 
         🔮<a href="https://divinescripture.art/">scripture entropy</a>  
+        <br /> 
+        🟡<a href="https://sorcerawr.com/">sorcerawr</a>  
+
+        
       </p> 
      );
 }

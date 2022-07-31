@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 import SiteProjects from './MainSite/SiteProjects'; 
+import utilStyles from '../styles/utils.module.css';
+
 
 {/* 
 import Footer from "../Design/Footer";
@@ -57,7 +59,10 @@ const About = () => {
             
             <Footer /><br /> 
              */ } 
+             <div className={utilStyles.projectscontainer}>
+
             <SiteProjects /> 
+            </div>
         </>
      );
 }
