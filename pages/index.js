@@ -11,7 +11,7 @@
 import React, {useState} from 'react';
 import SiteHeader from './MainSite/SiteHeader';
 import SiteFlow from './MainSite/SiteFlow';
-
+import SiteWritings from './MainSite/SiteWritings';
 
 import utilStyles from '../styles/utils.module.css';
 
@@ -27,7 +27,7 @@ const OrbGeo = (props) => {
     />
   )
   }
-import woodblue from '../styles/flow_images/woodblue.png'
+{/*import woodblue from '../styles/flow_images/woodblue.png'
 const WoodBlue = (props) => {
   return (
     <Image
@@ -35,7 +35,7 @@ const WoodBlue = (props) => {
       alt=""
     />
   )
-  }
+  } */} 
 //🟡 
 //🟠
 //🟣
@@ -68,7 +68,18 @@ function FlowHeader(){
       } 
   </React.Fragment>)
   }  
-
+  function Writings(){
+    const [showDetail,setShowDetail] = useState(false);
+    const handleToggle = () => setShowDetail(!showDetail);
+    return (
+    <React.Fragment>
+        <h3></h3>
+        <span onClick={handleToggle} className={utilStyles.thepointer}>Writings🟢</span>
+        {showDetail && 
+        <SiteWritings /> 
+        }
+    </React.Fragment>)
+    }  
   function Art(){
     const [showDetail,setShowDetail] = useState(false);
     const handleToggle = () => setShowDetail(!showDetail);
@@ -90,6 +101,7 @@ export default function Home({ allPostsData }) {
     <>
       <div className={utilStyles.flowcontainer}>
         <div  className={utilStyles.flowcontainerheader}> 
+          
           <OrbGeo /> 
           {/*<FlowHeader /> */}
         </div> 
@@ -97,6 +109,7 @@ export default function Home({ allPostsData }) {
         <div className={utilStyles.spacer}> </div> 
                         {/* <Spacer />  */} 
        <div  className={utilStyles.flowcontainerheader}> 
+                    
          <Art /> 
         </div> 
                        {/*   <Spacer />        
