@@ -2,10 +2,12 @@ const AboutProjects = () => {
     return ( 
       <p>
         Card: <br /> <br /> 
-        username: TheFlowMaker. <br /> 
-        bio: Play Creatively. <br />  
+        name: Tyler <br /> 
+        username: TheFlowMaker <br /> 
+        bio: "Play Creatively." <br />  
         mission: “Self Actualization through Art.”  <br /> 
-        goal: The Art of Mastery.  <br />  <br /> 
+        goal: The Art of Mastery.  <br />  
+        contact: masterflowart@gmail.com<br /> <br /> 
 
         <h2> Coming Soon Projects, Goals, Aspirations: </h2> 
          
