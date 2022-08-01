@@ -4,8 +4,8 @@ const AboutProjects = () => {
         Card: <br /> <br /> 
         name: Tyler <br /> 
         username: TheFlowMaker <br /> 
-        bio: "Play Creatively." <br />  
-        mission: “Self Actualization through Art.”  <br /> 
+        bio: Play Creatively. <br />  
+        mission: Self Actualization through Art.  <br /> 
         goal: The Art of Mastery.  <br />  
         contact: masterflowart@gmail.com<br /> <br /> 
 
