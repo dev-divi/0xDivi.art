@@ -16,12 +16,16 @@
   margin: 1rem 0;
 }
 
-.headingLg {
+.headingLg { /* MASTERFLOW.ART SITE HEADER */ 
   font-size: 1.5rem;
   line-height: 1.4;
   margin: 1rem 0;
   font-family: Elemental;
   color: white;
+  background-color: black;
+  text-align: center;
+  background-image: url("style_images/woody.jpeg");
+
 }
 
 .headingMd {
@@ -80,8 +84,13 @@
   background-image: url("style_images/woody.jpeg");
 }
 
-.projectscontainer{ 
+.projectscontainer{  /* PROJECTS PAGE */ 
   padding: 10px;
   background-color: white;
+  color: white;
   background-image: url("style_images/woody.jpeg");
+}
+.chakrapurple{ 
+  background-image: url("flow_images/purple_marble_1000x500.png");
+  height: 50px;
 }

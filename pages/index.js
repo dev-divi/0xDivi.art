@@ -109,8 +109,10 @@ export default function Home({ allPostsData }) {
         <div className={utilStyles.spacer}> </div> 
                         {/* <Spacer />  */} 
        <div  className={utilStyles.flowcontainerheader}> 
-         <Writings />           
-         <Art /> 
+         <Writings />      
+         <div  className={utilStyles.chakrapurple}>      
+            <Art /> 
+          </div>
         </div> 
                        {/*   <Spacer />        
 

@@ -1,13 +1,15 @@
 
 
+import utilStyles from '/styles/utils.module.css';
 
 
 const SiteHeader = () => {
     return (
         <div id="FlowHeader">
-                
-         Site Under Reconstruction!  
-  
+                     <div  className={utilStyles.chakrapurple}>      
+    
+            Site under reconstruction!  
+                </div> 
         </div> 
      );
 }
