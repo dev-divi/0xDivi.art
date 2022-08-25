@@ -6,14 +6,16 @@ const SiteWritings = () => {
          
 
 
-        <a href="https://divenie.com/all">📗 Divi&#39;s Writings </a>  
+        {/* <a href="https://divenie.com/all">📗 Divi&#39;s Writings </a> 
         <br /> 
-        <a href="https://www.jamesbyt.es/bytes.html">📙 James&#39; Articles - Link Down! </a>  
+        <a href="https://www.jamesbyt.es/bytes.html">📙 James&#39; Articles - Link Down! </a>    */ } 
         <br /> 
-        <a href="https://medium.com/@0xdivi/">📘 0xDivi&#39;s Medium </a>  
+        <a href="https://medium.com/@0xdivi/">📘 Writings </a>  
         <br /> 
-        <a href="https://Sorcerawr.com">📕 Sorcerawr </a>  
+        <a href="https://Sorcerawr.com">📕 SorceRawr.com </a>  
         <br /> 
+        💌 <a href="https://www.goodreads.com/user/show/135257757-james-the-blessed">Library</a>  
+
         </div>
      );
 }

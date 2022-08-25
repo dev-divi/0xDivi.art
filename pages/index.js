@@ -108,12 +108,20 @@ export default function Home({ allPostsData }) {
 
         <div className={utilStyles.spacer}> </div> 
                         {/* <Spacer />  */} 
-       <div  className={utilStyles.flowcontainerheader}> 
+      <div className={utilStyles.flowcontainerheader}> 
+      {/*-----------------------Temporary Layout: ----------------------------------------------*/}
+
+          <h3 > - Stuff - </h3>
+          <SiteWritings /> 
+
+     
+      </div> 
+      {/* Normal Design:
          <Writings />      
          <div  className={utilStyles.chakrapurple}>      
-            <Art /> 
+            <Art />  
           </div>
-        </div> 
+        </div>  */}
                        {/*   <Spacer />        
 
 

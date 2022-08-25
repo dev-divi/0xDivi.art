@@ -2,7 +2,8 @@ const AboutProjects = () => {
     return ( 
       <p>
         goal: The Art of Mastery.  <br /> 
-        coming soon: inventions.. 
+        
+        coming soon: prototypes
 
         <br /> <br /> 
         <h1>All Projects  </h1>
