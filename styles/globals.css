@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Homemade+Apple&display=swap');
+
 html,
 {/* 
 yellows: 
@@ -19,11 +21,12 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 1.5em;
-  background-color:black;
+  background-color:#121212;
   zoom: 1;
-  background-image: url("style_images/12_zen.png"); 
+  /*background-image: url("style_images/12_zen.png"); */
   background-size: 100%;
   background-position: center;
+  font-family: 'Aboreto', cursive;
 }
 
 a {

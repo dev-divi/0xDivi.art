@@ -1,5 +1,4 @@
 //import Head from 'next/head'
-//import Image from 'next/image'
 //import styles from '../styles/Home.module.css'
 //import Link from 'next/link'
 
@@ -16,7 +15,7 @@ import SiteWritings from './MainSite/SiteWritings';
 import utilStyles from '../styles/utils.module.css';
 
 import Image from 'next/image'
-import orbgeo from '../styles/style_images/master.png'
+import orbgeo from '../styles/art_gallery/MASTERFLOW.ART.EMBOSS.png'
 const OrbGeo = (props) => {
   return (
     <Image

@@ -1,9 +1,21 @@
 const AboutProjects = () => {
     return ( 
       <p>
-        goal: The Art of Mastery.  <br /> 
+        goal: The Art of Mastery.  <br /> <br /> 
         
-        coming soon: prototypes
+        project: Flow Sticks 
+
+        <br /> <br /> 
+        skills to master:  <br /> 
+        woodworking <br /> 
+        jewelry making <br /> 
+        ring making <br /> 
+        sketching<br /> 
+        drawing<br /> 
+        3d modeling <br /> 
+        3d printing <br /> 
+        zen <br /> 
+        time <br /> 
 
         <br /> <br /> 
         <h1>All Projects  </h1>

@@ -20,11 +20,11 @@
   font-size: 1.5rem;
   line-height: 1.4;
   margin: 1rem 0;
-  font-family: Elemental;
+ /* font-family: Elemental; */
   color: white;
   background-color: black;
   text-align: center;
-  background-image: url("style_images/woody.jpeg");
+  background-image: url("style_images/woodybetter.png");
 
 }
 
@@ -81,14 +81,14 @@
 .flowcontainer{ 
   padding: 10px;
   background-color: white;
-  background-image: url("style_images/woody.jpeg");
+  background-image: url("flow_images/woodexperiment.png"); 
 }
 
 .projectscontainer{  /* PROJECTS PAGE */ 
   padding: 10px;
   background-color: white;
   color: white;
-  background-image: url("style_images/woody.jpeg");
+  background-image: url("style_images/woodybetter.png");
 }
 .chakrapurple{ 
   background-image: url("flow_images/purple_marble_1000x500.png");
