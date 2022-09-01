@@ -19,9 +19,4 @@ const SiteWritings = () => {
         </div>
      );
 }
- {/*   <a href="https://divenie.com/all">📗 You Are The Stranger  </a>  
-
-        
-        <a href="https://divenie.com/all">📗 You Are The Player </a>  
- */}
 export default SiteWritings;

@@ -8,14 +8,15 @@
 
 
 import React, {useState} from 'react';
-import SiteHeader from './MainSite/SiteHeader';
-import SiteFlow from './MainSite/SiteFlow';
+//import SiteHeader from './MainSite/SiteHeader';
+//import SiteFlow from './MainSite/SiteFlow';
+import SiteArt from './MainSite/SiteArt';
 import SiteWritings from './MainSite/SiteWritings';
 
 import utilStyles from '../styles/utils.module.css';
 
 import Image from 'next/image'
-import orbgeo from '../styles/art_gallery/MASTERFLOW.ART.EMBOSS.png'
+import orbgeo from '../styles/art_gallery/MASTERFLOW.ART.500.png'
 const OrbGeo = (props) => {
   return (
     <Image
@@ -55,6 +56,7 @@ export async function getStaticProps() {
   }
 }
 */}
+
 function FlowHeader(){
   const [showDetail,setShowDetail] = useState(false);
   const handleToggle = () => setShowDetail(!showDetail);
@@ -87,7 +89,7 @@ function FlowHeader(){
         <h3></h3>
         <span onClick={handleToggle} className={utilStyles.thepointer}>Art🟢</span>
         {showDetail && 
-        <SiteHeader /> 
+        <SiteArt /> 
         }
     </React.Fragment>)
     }  
@@ -111,6 +113,7 @@ export default function Home({ allPostsData }) {
       {/*-----------------------Temporary Layout: ----------------------------------------------*/}
 
           <h3 > - Stuff - </h3>
+          <Art />
           <SiteWritings /> 
 
      
