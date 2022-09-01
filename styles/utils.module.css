@@ -94,3 +94,21 @@
   background-image: url("flow_images/purple_marble_1000x500.png");
   height: 50px;
 }
+.goldbutton_borderdiv {
+  background-image: url("style_images/gold-foil-texture-dark-square.jpg");
+  width:210px;
+  height: 60px;
+}
+.goldbutton{
+  background-image: url("style_images/gold-foil-texture.jpg");
+  width: 200px;
+  height: 50px;
+  border-radius: 0px;
+  font-size: 1em;
+  font-family: Aboreto;
+  font-weight:bolder;
+  border: none;
+  cursor: pointer;
+  align-content: center;
+  align-items: center;
+}

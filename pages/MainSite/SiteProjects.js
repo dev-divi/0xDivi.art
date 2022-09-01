@@ -4,8 +4,8 @@ const AboutProjects = () => {
         goal: The Art of Mastery.  <br /> <br /> 
         
         project: #00 Flow Stick<br /> 
-        Type: Product <br /> 
-        Description: Establish a link to the state of mind that accesses creativity and ideas. <br /> 
+        {/*Type: Product <br /> 
+        Description: Establish a link to the state of mind that accesses creativity and ideas. <br /> */}
         Phase: Prototyping<br /> 
         <br /> <br /> 
         skills to master:  <br /> 

@@ -87,7 +87,9 @@ function FlowHeader(){
     return (
     <React.Fragment>
         <h3></h3>
-        <span onClick={handleToggle} className={utilStyles.thepointer}>Art🟢</span>
+        <div className={utilStyles.goldbutton_borderdiv}>
+        <button className={utilStyles.goldbutton}> <span onClick={handleToggle} className={utilStyles.thepointer}>Art🟢</span> </button>
+        </div>
         {showDetail && 
         <SiteArt /> 
         }
