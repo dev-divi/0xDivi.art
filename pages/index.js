@@ -113,7 +113,7 @@ function Resources(){
   <React.Fragment>
       <h3></h3>
       <div className={utilStyles.goldbutton_borderdiv}>
-      <span onClick={handleToggle} className={utilStyles.thepointer}> <button className={utilStyles.goldbutton}> Resources🟢</button></span> 
+      <span onClick={handleToggle} className={utilStyles.thepointer}> <button className={utilStyles.goldbutton}> Life🟢</button></span> 
       </div>
       {showDetail && 
       <SiteResources /> 
@@ -146,10 +146,10 @@ export default function Home({ allPostsData }) {
       /////////////////////LAYOUT
       */}
 
-          <h3 > - Stuff - </h3>
           
           <Art />
           <Resources /> 
+          <h3 > - Stuff - </h3>
           <SiteWritings /> 
 
 
