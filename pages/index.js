@@ -120,6 +120,23 @@ function Resources(){
       }
   </React.Fragment>)
   }  
+  {/* //////////////////////////////////////////////////////////////////////////////////////////////////////
+  ///////////////////////////////////LOVE FUNCTION ///////////////////////////////////////////////////////
+////////////////////////////////////////////////////dont worry there was no plan here lol/////////////////////////////////*/}
+function Love(){
+  const [showDetail,setShowDetail] = useState(false);
+  const handleToggle = () => setShowDetail(!showDetail);
+  return (
+  <React.Fragment>
+      <h3></h3>
+      <div className={utilStyles.goldbutton_borderdiv}>
+      <span onClick={handleToggle} className={utilStyles.thepointer}> <button className={utilStyles.goldbutton}> Love🟢</button></span> 
+      </div>
+      {showDetail && 
+       <p>  </p>
+      }
+  </React.Fragment>)
+  }  
 
 {/* ////////////////////////////////
 //////////////         SITE 
@@ -149,6 +166,7 @@ export default function Home({ allPostsData }) {
           
           <Art />
           <Resources /> 
+          <Love /> 
           <h3 > - Stuff - </h3>
           <SiteWritings /> 
 
