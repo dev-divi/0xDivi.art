@@ -41,7 +41,6 @@ const SiteResources = () => {
                     <li>     - How to Draw </li>
                     <li>     - How to Write </li>
                     <li>     - How to Code </li>
-                    <li>     - How to </li>
                     <li>     - How to Learn to Win - Pareto Principle </li>
                 </ul>
                 

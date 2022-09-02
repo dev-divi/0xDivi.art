@@ -100,7 +100,7 @@
   height: 60px;
 }
 .goldbutton{
-  background-image: url("style_images/gold-foil-texture.jpg");
+  background-image: url("style_images/woodybetter.png");
   width: 200px;
   height: 50px;
   border-radius: 0px;
@@ -111,6 +111,7 @@
   cursor: pointer;
   align-content: center;
   align-items: center;
+  color:white;
 }
 .art_one{
 
