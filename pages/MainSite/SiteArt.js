@@ -1,9 +1,11 @@
 
 import one from '/styles/art_gallery/START_FROM_NOTHING_03.png'
+import utilStyles from '/styles/utils.module.css';
+
 const One = (props) => {
   return (
     <Image
-      src={One}
+      src={one}
       alt=""
       width=""
       height=""
@@ -12,8 +14,8 @@ const One = (props) => {
   }
 const SiteArt = () => {
     return (
-        <div id="SiteArt">
-            <One /> 
+        <div className={utilStyles.art_one}>
+            {/* <One /> */}
         </div> 
      );
 }

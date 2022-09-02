@@ -12,6 +12,7 @@ import React, {useState} from 'react';
 //import SiteFlow from './MainSite/SiteFlow';
 import SiteArt from './MainSite/SiteArt';
 import SiteWritings from './MainSite/SiteWritings';
+import SiteResources from './MainSite/SiteResources';
 
 import utilStyles from '../styles/utils.module.css';
 
@@ -69,6 +70,9 @@ function FlowHeader(){
       } 
   </React.Fragment>)
   }  
+  {/*////////////////////////////////////////////////////////////////////////////////////// 
+  ////////////////////////////////WRITING FUNCTION 
+  /////////////////////////////////////////////////////////////////////////////*/}
   function Writings(){
     const [showDetail,setShowDetail] = useState(false);
     const handleToggle = () => setShowDetail(!showDetail);
@@ -81,6 +85,10 @@ function FlowHeader(){
         }
     </React.Fragment>)
     }  
+
+  {/* //////////////////////////////////////////////////////////////////////////////////////////////////////
+  ///////////////////////////////////ART FUNCTION ///////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////*/}
   function Art(){
     const [showDetail,setShowDetail] = useState(false);
     const handleToggle = () => setShowDetail(!showDetail);
@@ -88,14 +96,34 @@ function FlowHeader(){
     <React.Fragment>
         <h3></h3>
         <div className={utilStyles.goldbutton_borderdiv}>
-        <button className={utilStyles.goldbutton}> <span onClick={handleToggle} className={utilStyles.thepointer}>Art🟢</span> </button>
+        <span onClick={handleToggle} className={utilStyles.thepointer}> <button className={utilStyles.goldbutton}> Art🟢</button></span> 
         </div>
         {showDetail && 
         <SiteArt /> 
         }
     </React.Fragment>)
     }  
+  {/* //////////////////////////////////////////////////////////////////////////////////////////////////////
+  ///////////////////////////////////RESOURCES FUNCTION ///////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////*/}
+function Resources(){
+  const [showDetail,setShowDetail] = useState(false);
+  const handleToggle = () => setShowDetail(!showDetail);
+  return (
+  <React.Fragment>
+      <h3></h3>
+      <div className={utilStyles.goldbutton_borderdiv}>
+      <span onClick={handleToggle} className={utilStyles.thepointer}> <button className={utilStyles.goldbutton}> Resources🟢</button></span> 
+      </div>
+      {showDetail && 
+      <SiteResources /> 
+      }
+  </React.Fragment>)
+  }  
 
+{/* ////////////////////////////////
+//////////////         SITE 
+*/}
 export default function Home({ allPostsData }) {
 
   const [showDetail,setShowDetail] = useState(false);
@@ -103,43 +131,30 @@ export default function Home({ allPostsData }) {
   return (
     <>
       <div className={utilStyles.flowcontainer}>
+
+        {/* //////////////////////HEADER/////////////////////////*/}
         <div  className={utilStyles.flowcontainerheader}> 
-          
           <OrbGeo /> 
           {/*<FlowHeader /> */}
         </div> 
 
+
         <div className={utilStyles.spacer}> </div> 
                         {/* <Spacer />  */} 
       <div className={utilStyles.flowcontainerheader}> 
-      {/*-----------------------Temporary Layout: ----------------------------------------------*/}
+      {/*
+      /////////////////////LAYOUT
+      */}
 
           <h3 > - Stuff - </h3>
+          
           <Art />
+          <Resources /> 
           <SiteWritings /> 
+
 
      
       </div> 
-      {/* Normal Design:
-         <Writings />      
-         <div  className={utilStyles.chakrapurple}>      
-            <Art />  
-          </div>
-        </div>  */}
-                       {/*   <Spacer />        
-
-
-                        <SiteFlow />                           
-                        <Spacer />     
-                        <SiteCubes />      
-                        <Spacer />      
-                        <SiteBook/>       
-                        <Spacer />          
-                        <Spacer />          
-                        <Spacer />      
-                        
-                        <Socials /> 
-                        */}  
           
       </div>
       

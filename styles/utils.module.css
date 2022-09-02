@@ -112,3 +112,16 @@
   align-content: center;
   align-items: center;
 }
+.art_one{
+
+  background-image: url("art_gallery/START_FROM_NOTHING_03.png");
+  background-size:contain; 
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+}
+
+
+.resources { 
+  background-image: url("style_images/woodybetter.png");
+}
