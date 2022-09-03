@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
-import one from '/styles/art_gallery/START_FROM_NOTHING_03.png'
+import one from '/styles/art_gallery/sfn.png'
 import utilStyles from '/styles/utils.module.css';
-
+import artStyles from '/styles/art.module.css';
 const One = (props) => {
   return (
     <Image
@@ -15,7 +15,7 @@ const One = (props) => {
   }
 const SiteArt = () => {
     return (
-        <div className={utilStyles.art_one}>
+        <div className={artStyles.art_one}>
             {/* <One /> */}
         </div> 
      );

@@ -3,7 +3,7 @@ import Link from 'next/link'
 const SiteFlow = () => {
     return ( 
         <p>
-            Site FLow Module 
+            What is Flow? 
         </p> 
     );
 }
