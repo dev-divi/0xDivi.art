@@ -1,3 +1,4 @@
+import Image from 'next/image'
 
 import one from '/styles/art_gallery/START_FROM_NOTHING_03.png'
 import utilStyles from '/styles/utils.module.css';
