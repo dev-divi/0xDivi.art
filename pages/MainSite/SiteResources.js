@@ -17,7 +17,7 @@ const SiteResources = () => {
                         </ul> 
 
                         <li> - Searching for Meaning</li> 
-                            <ul> <li>Man's Search for Meaning</li></ul>
+                            <ul> <li>Man&apos;s Search for Meaning</li></ul>
                     </ul>
 
                 Searching for Truth <br />
