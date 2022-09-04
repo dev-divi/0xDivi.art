@@ -18,6 +18,8 @@ import utilStyles from '../styles/utils.module.css';
 
 import Image from 'next/image'
 import orbgeo from '../styles/art_gallery/MASTERFLOW.ART.500.png'
+import SiteCreativeResources from './MainSite/SiteCreativeResources';
+import SiteFlow from './MainSite/SiteFlow';
 const OrbGeo = (props) => {
   return (
     <Image
@@ -167,6 +169,8 @@ export default function Home({ allPostsData }) {
           <Art />
           <Resources /> 
           <Love /> 
+          <SiteFlow />
+          <SiteCreativeResources />
           <h3 > - Stuff - </h3>
           <SiteWritings /> 
 

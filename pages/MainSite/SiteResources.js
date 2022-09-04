@@ -6,12 +6,12 @@ const SiteResources = () => {
         <div className={utilStyles.resources}>
             <h3> - Resources - </h3>
 
-            <p> 
+            <p>  [To be updated with links] <br /> 
                 Feeling Stuck in Life <br /> 
                     <ul> 
                         <li> - The Happiness Project </li>
                         <li> - The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life</li>
-                        <li>- What to do in Life  </li>
+                        <li> - What to do in Life  </li>
                         <ul>
                             <li>Jordan Peterson Speech  </li>
                         </ul> 
@@ -44,26 +44,12 @@ const SiteResources = () => {
                             <ul> 
                                 <li> Archetypal Psychology</li>
                                 <ul> 
-                                    <li>King, Warrior, Magician, Lover </li>
+                                    <li> King, Warrior, Magician, Lover </li>
                                     <li> The Song of Eve</li>
                                     
                                 </ul>
                             </ul>
                     </ul>
-
-
-                Skills <br /> 
-                <ul> 
-                    <li>     - How to Draw </li>
-                    <li>     - How to Write </li>
-                    <li>     - How to Code </li>
-                    <li>     - How to Animation </li> {/* Scratch */}
-                    <li>     - How to Game Design </li>
-                    <li>     - How to Graphic Design </li> {/* GIMP */}
-                    <li>     - How to Nerd </li> {/* Linux */}
-                    <li>     - How to Learn to Win - Pareto Principle </li>
-                </ul>
-                
             </p>
         </div> 
      );
