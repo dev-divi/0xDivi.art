@@ -116,3 +116,15 @@
 .resources { 
   background-image: url("style_images/woodybetter.png");
 }
+.resourcesknow{
+  background-image: url("style_images/woodybetter.png");
+  color:black;
+}
+.black{
+  background-color: #121212;
+  margin:20px;
+}
+.black a{ 
+  text-decoration: underline;
+
+}
