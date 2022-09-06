@@ -10,7 +10,7 @@ const SiteArt = () => {
      {/* <One /> */}
     return (
         <div> 
-          <div className={artStyles.art_one}></div> 
+          {/*<div className={artStyles.art_one}></div> */}
           <div className={artStyles.art_2}></div>
           <div className={artStyles.art_3}></div>
           <div className={artStyles.art_4}></div>

@@ -9,17 +9,17 @@
 
 import React, {useState} from 'react';
 import SiteHeader from './MainSite/SiteHeader';
-//import SiteFlow from './MainSite/SiteFlow';
+import SiteFlow from './MainSite/SiteFlow';
 import SiteArt from './MainSite/SiteArt';
 import SiteWritings from './MainSite/SiteWritings';
 import SiteResources from './MainSite/SiteResources';
+import SiteLove from './MainSite/SiteLove';
 
 import utilStyles from '../styles/utils.module.css';
 
 import Image from 'next/image'
 import orbgeo from '../styles/art_gallery/MASTERFLOW.ART.500.png'
 import SiteCreativeResources from './MainSite/SiteCreativeResources';
-import SiteFlow from './MainSite/SiteFlow';
 const OrbGeo = (props) => {
   return (
     <Image
@@ -135,7 +135,7 @@ function Love(){
       <span onClick={handleToggle} className={utilStyles.thepointer}> <button className={utilStyles.goldbutton}> Love🟢</button></span> 
       </div>
       {showDetail && 
-       <p>  </p>
+       <p> <SiteLove /></p>
       }
   </React.Fragment>)
   }  
