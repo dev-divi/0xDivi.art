@@ -20,6 +20,8 @@ import utilStyles from '../styles/utils.module.css';
 import Image from 'next/image'
 import orbgeo from '../styles/art_gallery/MASTERFLOW.ART.500.png'
 import SiteCreativeResources from './MainSite/SiteCreativeResources';
+
+import goldheart from '../styles/style_images/golden_heart2.png'; 
 const OrbGeo = (props) => {
   return (
     <Image
@@ -30,6 +32,16 @@ const OrbGeo = (props) => {
     />
   )
   }
+  const GoldHeart = (props) => {
+    return (
+      <Image
+        src={goldheart}
+        alt=""
+        width=""
+        height=""
+      />
+    )
+    }
 {/*import woodblue from '../styles/flow_images/woodblue.png'
 const WoodBlue = (props) => {
   return (
@@ -173,8 +185,8 @@ export default function Home({ allPostsData }) {
           <SiteCreativeResources />
           <h3 > - Stuff - </h3>
           <SiteWritings /> 
-
-
+          <br /> <br /> <br /> 
+          <GoldHeart /> 
      
       </div> 
           
