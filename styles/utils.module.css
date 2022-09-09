@@ -128,7 +128,21 @@
   text-decoration: underline;
 
 }
+.underline a{
+  text-decoration: underline;
 
+}
 .crimson{
   font-family: 'Crimson Text', serif;
+}
+.center{
+  text-align: center; 
+}
+.woodlink{
+  background-image: url("style_images/woodybetter.png");
+  font-family: 'Crimson Text', serif;
+}
+.woodlink a{
+  text-decoration: underline;
+
 }

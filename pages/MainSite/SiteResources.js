@@ -4,9 +4,9 @@ import utilStyles from '/styles/utils.module.css';
 const SiteResources = () => {
     return (
         <div className={utilStyles.resources}>
-            <h3> - Resources - </h3>
+            <h3> - Life Resources - </h3>
 
-            <p>  [To be updated with links] <br /> 
+            <p>  [To be updated with links] <br /> <br /> 
                 Feeling Stuck in Life <br /> 
                     <ul> 
                         <li> - The Happiness Project </li>

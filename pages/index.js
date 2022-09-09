@@ -22,6 +22,7 @@ import orbgeo from '../styles/art_gallery/MASTERFLOW.ART.500.png'
 import SiteCreativeResources from './MainSite/SiteCreativeResources';
 
 import goldheart from '../styles/style_images/golden_heart2.png'; 
+import SiteFlowMakers from './MainSite/SiteFlowMakers';
 const OrbGeo = (props) => {
   return (
     <Image
@@ -166,7 +167,10 @@ export default function Home({ allPostsData }) {
         {/* //////////////////////HEADER/////////////////////////*/}
         <div  className={utilStyles.flowcontainerheader}> 
           <OrbGeo /> 
-          {/*<FlowHeader /> */}
+          
+          {/*<p className={utilStyles.resources}> Master the Art of Flow. </p>
+          
+          <FlowHeader /> */}
         </div> 
 
 
@@ -181,6 +185,7 @@ export default function Home({ allPostsData }) {
           <Art />
           <Resources /> 
           <Love /> 
+          <SiteFlowMakers /> 
           <SiteFlow />
           <SiteCreativeResources />
           <h3 > - Stuff - </h3>
