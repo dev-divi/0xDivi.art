@@ -25,9 +25,9 @@ const SiteResources = () => {
                     <ul> 
                         <li> - The Word </li> 
                             <ul> 
-                                <li> <a className={utilStyles.woodlink} href="https://www.bible.com/bible/116/PRO.1.NLT">- Solomon's Proverbs </a>  </li>
-                                <li> <a className={utilStyles.woodlink} href="https://www.bible.com/bible/206/PSA.1.WEBUS">- David's Psalms </a>  </li>
-                                <li> <a className={utilStyles.woodlink} href="https://www.biblegateway.com/passage/?search=Matthew%205-7&version=NIV"> - Jesus's Sermon on the Mount </a>  </li>
+                                <li> <a className={utilStyles.woodlink} href="https://www.bible.com/bible/116/PRO.1.NLT">- Solomon&apos;s Proverbs </a>  </li>
+                                <li> <a className={utilStyles.woodlink} href="https://www.bible.com/bible/206/PSA.1.WEBUS">- David&apos;s Psalms </a>  </li>
+                                <li> <a className={utilStyles.woodlink} href="https://www.biblegateway.com/passage/?search=Matthew%205-7&version=NIV"> - Jesus&apos;s Sermon on the Mount </a>  </li>
                             </ul>
                         <li> - The Way  </li> 
                             <ul> 
