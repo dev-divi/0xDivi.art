@@ -23,6 +23,8 @@ import SiteCreativeResources from './MainSite/SiteCreativeResources';
 
 import goldheart from '../styles/style_images/golden_heart2.png'; 
 import SiteFlowMakers from './MainSite/SiteFlowMakers';
+
+import flowmakerimage from '../styles/style_images/flowmaker.PNG';
 const OrbGeo = (props) => {
   return (
     <Image
@@ -33,16 +35,12 @@ const OrbGeo = (props) => {
     />
   )
   }
-  const GoldHeart = (props) => {
-    return (
-      <Image
-        src={goldheart}
-        alt=""
-        width=""
-        height=""
-      />
-    )
-    }
+  const GoldHeart = (props) => {   return (
+    <Image        src={goldheart} alt="" width="" height="" />
+  )}
+  const FlowMaker = (props) => {   return (
+    <Image        src={flowmakerimage} alt="" width="" height="" />
+  )}
 {/*import woodblue from '../styles/flow_images/woodblue.png'
 const WoodBlue = (props) => {
   return (
@@ -166,7 +164,8 @@ export default function Home({ allPostsData }) {
 
         {/* //////////////////////HEADER/////////////////////////*/}
         <div  className={utilStyles.flowcontainerheader}> 
-          <OrbGeo /> 
+          <FlowMaker /> 
+          {/* <OrbGeo /> */ }
           
           {/*<p className={utilStyles.resources}> Master the Art of Flow. </p>
           

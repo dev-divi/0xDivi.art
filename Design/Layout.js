@@ -2,8 +2,8 @@ import Footer from "./Footer";
 import Header from "./Header";
 import styles from '../styles/layout.module.css';
 
-export const siteTitle = 'MasterFlow.art'
-export const name = 'MasterFlow.art'
+export const siteTitle = 'FlowMaker.art'
+export const name = 'FlowMaker.art'
 
 const Layout = ( { children } ) => {
     return ( 
