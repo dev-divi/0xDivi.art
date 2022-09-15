@@ -146,3 +146,12 @@
   text-decoration: underline;
 }
 
+.howto{ 
+  font-family: 'Crimson Text', serif;
+
+  background-color: #121212;
+  margin:20px;
+}
+.howto a{ 
+  text-decoration: underline;
+}

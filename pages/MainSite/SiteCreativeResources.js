@@ -8,7 +8,7 @@ const SiteCreativeResources = () => {
 
             <p className={utilStyles.resources}>  <br /> 
                 Learn Life Skills <br /> 
-                <ul className={utilStyles.black}> 
+                <ul className={utilStyles.howto}> 
                 <li><a href="https://youtu.be/_X0mgOOSpLU"> - How to Anything</a> - YouTube</li>
                 <li><a href="https://www.youtube.com/watch?v=ewMksAbgdBI"> - How to Draw</a> - YouTube</li>
                 <li> - How to Code</li>
