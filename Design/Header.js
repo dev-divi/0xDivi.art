@@ -12,9 +12,9 @@ const NavBar = () => {
                 <title>{siteTitle}</title> {/* tab title */}
             </Head>
             <h2 className={utilStyles.headingLg}>
-              <Link href="/">
+              {/* <Link href="/">                                 SITE NAME 
                 <a className={utilStyles.colorInherit}>{name}</a>
-              </Link>
+    </Link> */}
               <span className={utilStyles.header0xdivi}>
 
               <Link href="/"> - Home </Link>
