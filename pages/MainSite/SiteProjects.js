@@ -6,8 +6,8 @@ const AboutProjects = () => {
         project: #00 Flow Stick<br /> 
         {/*Type: Product <br /> 
         Description: Establish a link to the state of mind that accesses creativity and ideas. <br /> */}
-        Phase: Prototyping<br /> 
-        <br /> <br /> 
+        Phase: Prototyping
+        {/*
         skills to master:  <br /> 
         woodworking <br /> 
         jewelry making <br /> 
@@ -18,7 +18,7 @@ const AboutProjects = () => {
         3d printing <br /> 
         zen <br /> 
         time <br /> 
-
+ */}
         <br /> <br /> 
         <h1>All Projects  </h1>
         <br /> 

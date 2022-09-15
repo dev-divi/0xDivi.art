@@ -1,6 +1,6 @@
 //import Head from 'next/head'
 //import styles from '../styles/Home.module.css'
-//import Link from 'next/link'
+import Link from 'next/link'
 
 //text system? 
 //import Date from '/library_system/date';
@@ -164,7 +164,10 @@ export default function Home({ allPostsData }) {
 
         {/* //////////////////////HEADER/////////////////////////*/}
         <div  className={utilStyles.flowcontainerheader}> 
-          <FlowMaker /> 
+
+          <Link href="/">       
+                <a> <FlowMaker /> </a>
+          </Link> 
           {/* <OrbGeo /> */ }
           
           {/*<p className={utilStyles.resources}> Master the Art of Flow. </p>
