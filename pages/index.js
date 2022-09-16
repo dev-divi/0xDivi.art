@@ -199,7 +199,7 @@ export default function Home({ allPostsData }) {
           
           <Art />
           <Resources /> 
-          <Love /> 
+          {/*<Love /> */}
           <SiteFlowMakers /> 
           <h3> - Flow - </h3>
           <WhatIsFLow /> 
