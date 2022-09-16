@@ -24,7 +24,7 @@ body {
   background-color:#121212;
   zoom: 1;
   background-image: url("/water.jpeg"); 
-  background-size: 100%;
+  background-size: 150%;
   /* background-position: center; */
   font-family: 'Aboreto', cursive;
 }
