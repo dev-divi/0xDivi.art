@@ -14,7 +14,7 @@ import SiteArt from './MainSite/SiteArt';
 import SiteWritings from './MainSite/SiteWritings';
 import SiteResources from './MainSite/SiteResources';
 import SiteLove from './MainSite/SiteLove';
-
+import SiteWhatIsFlow from './MainSite/SiteWhatIsFlow';
 import utilStyles from '../styles/utils.module.css';
 
 import Image from 'next/image'
@@ -150,7 +150,20 @@ function Love(){
       }
   </React.Fragment>)
   }  
-
+  function WhatIsFLow(){
+    const [showDetail,setShowDetail] = useState(false);
+    const handleToggle = () => setShowDetail(!showDetail);
+    return (
+    <React.Fragment>
+        <h3></h3>
+        <div className={utilStyles.goldbutton_borderdiv}>
+        <span onClick={handleToggle} className={utilStyles.thepointer}> <button className={utilStyles.goldbutton}> Flow? 🟢</button></span> 
+        </div>
+        {showDetail && 
+         <p> <SiteWhatIsFlow /></p>
+        }
+    </React.Fragment>)
+    }  
 {/* ////////////////////////////////
 //////////////         SITE 
 */}
@@ -188,6 +201,8 @@ export default function Home({ allPostsData }) {
           <Resources /> 
           <Love /> 
           <SiteFlowMakers /> 
+          <h3> - Flow - </h3>
+          <WhatIsFLow /> 
           <SiteFlow />
           <SiteCreativeResources />
           <h3 > - Stuff - </h3>

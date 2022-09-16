@@ -1,7 +1,7 @@
 const AboutProjects = () => {
     return ( 
       <p>
-        goal: The Art of Mastery.  <br /> <br /> 
+        goal: The Art of Flow.  <br /> <br /> 
         
         project: #00 Flow Stick<br /> 
         {/*Type: Product <br /> 

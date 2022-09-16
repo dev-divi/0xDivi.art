@@ -141,9 +141,15 @@
 .woodlink{
   background-image: url("style_images/woodybetter.png");
   font-family: 'Crimson Text', serif;
+  border-radius: 12px;
+
+  
 }
 .woodlink a{
-  text-decoration: underline;
+  text-decoration: underline !important;
+  text-decoration-line: underline;
+  text-decoration-color: white;
+
 }
 
 .howto{ 

@@ -6,7 +6,7 @@ const SiteResources = () => {
         <div className={utilStyles.resources}>
             <h3> - Life Resources - </h3>
 
-            <p>  [To be updated with links] <br /> <br /> 
+            <p>   
                 Feeling Stuck in Life <br /> 
                     <ul> 
                         <li><a  className={utilStyles.woodlink} 
@@ -32,11 +32,11 @@ const SiteResources = () => {
                         <li> - The Way  </li> 
                             <ul> 
                                 <li> <a className={utilStyles.woodlink} href="https://www.youtube.com/watch?v=73_Voet2fnc&ab_channel=TheCrucible">- Narrated - YouTube</a> </li> 
-                                <li><a className={utilStyles.woodlink} href="https://www.unl.edu/prodmgr/NRT/Tao%20Te%20Ching%20-%20trans.%20by%20J.H..%20McDonald.pdf">- Translation 1 - PDF</a></li> 
-                                <li> Translation 2</li> 
+                                <li><a className={utilStyles.woodlink} href="https://www.unl.edu/prodmgr/NRT/Tao%20Te%20Ching%20-%20trans.%20by%20J.H..%20McDonald.pdf">- The Tao - PDF</a></li> 
+                                {/* <li> Translation 2</li> 
                                 <li> Bhagwan teachings </li> 
                                 <li> Ram Dass teaching </li> 
-                                <li> Other teachings </li> 
+                                <li> Other teachings </li>  */} 
                             </ul> 
                         <li> - Zen </li> 
                             <ul> 
@@ -47,7 +47,7 @@ const SiteResources = () => {
                                 <li> Archetypal Psychology</li>
                                 <ul> 
                                     <li> <a className={utilStyles.woodlink} href="https://www.amazon.com/King-Warrior-Magician-Lover-Rediscovering/dp/0062506064">- King, Warrior, Magician, Lover  </a>  </li>
-                                    <li> The Song of Eve</li>
+                                    {/* <li> The Song of Eve</li> */}
                                     
                                 </ul>
                             </ul>

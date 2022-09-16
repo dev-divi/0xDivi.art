@@ -5,8 +5,8 @@ import utilStyles from '/styles/utils.module.css';
 const SiteFlow = () => {
     return ( 
         <p>
-            <h3> - Flow - </h3>
-            <iframe width="315" height="315" src="https://www.youtube.com/embed/videoseries?list=PLwgC-cD-X2_UIk_Ef7VqSzXQUkDzobqoQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            {/* <h3> - Flow - </h3> */}
+            <iframe width="315" height="315" src="https://www.youtube.com/embed/videoseries?list=PLwgC-cD-X2_UIk_Ef7VqSzXQUkDzobqoQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> <br />
             <a  className={utilStyles.black} href="https://youtube.com/playlist?list=PLwgC-cD-X2_UIk_Ef7VqSzXQUkDzobqoQ">- Art and Flow YouTube Playlist - </a> <br /> 
 
             <p > 
