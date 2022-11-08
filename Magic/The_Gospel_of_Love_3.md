@@ -28,6 +28,7 @@ To explain in plain terms the difference between this translation and modern tra
 this translation is for the deep. 
 
 Only a fool would take this translation *as gospel*.
+
 # Preface 
 
 John 16:12-13
