@@ -32,9 +32,9 @@ this translation is for the deep.
 Only a fool would take this translation *as gospel*.
 # Preface 
 
-John 16:12 
+John 16:12-13
 
-I still hold much to tell you, 
+`I still hold much to tell you, 
 but you are not able presently at this moment to carry it. 
 
 However, when the Spirit of Reality comes, he will show you the way into all reality. 
@@ -42,7 +42,7 @@ However, when the Spirit of Reality comes, he will show you the way into all rea
 
 For he will not speak on His own, 
 but He will speak as much as He hears,
-and He will report to you what is to come. 
+and He will report to you what is to come.`
 
 * In these verses, truth is reality. 
 Jesus says the Spirit of Reality/Truth is coming to you, 
