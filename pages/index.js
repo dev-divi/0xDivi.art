@@ -83,6 +83,22 @@ function FlowHeader(){
       } 
   </React.Fragment>)
   }  
+    {/*////////////////////////////////////////////////////////////////////////////////////// 
+  ////////////////////////////////KNOW FUNCTION 
+  /////////////////////////////////////////////////////////////////////////////*/}
+  function Knowings(){
+    const [showDetail,setShowDetail] = useState(false);
+    const handleToggle = () => setShowDetail(!showDetail);
+    return (
+    <React.Fragment>
+        <h3></h3>
+        <span onClick={handleToggle} className={utilStyles.thepointer}> <button className={utilStyles.goldbutton}>Know🟢</button></span>
+        {showDetail && 
+        <SiteCreativeResources /> 
+        }
+    </React.Fragment>)
+    }  
+
   {/*////////////////////////////////////////////////////////////////////////////////////// 
   ////////////////////////////////WRITING FUNCTION 
   /////////////////////////////////////////////////////////////////////////////*/}
@@ -157,13 +173,14 @@ function Love(){
     <React.Fragment>
         <h3></h3>
         <div className={utilStyles.goldbutton_borderdiv}>
-        <span onClick={handleToggle} className={utilStyles.thepointer}> <button className={utilStyles.goldbutton}> Flow? 🟢</button></span> 
+        <span onClick={handleToggle} className={utilStyles.thepointer}> <button className={utilStyles.goldbutton}> Flow 🟢</button></span> 
         </div>
         {showDetail && 
          <p> <SiteWhatIsFlow /></p>
         }
     </React.Fragment>)
     }  
+
 {/* ////////////////////////////////
 //////////////         SITE 
 */}
@@ -177,10 +194,12 @@ export default function Home({ allPostsData }) {
 
         {/* //////////////////////HEADER/////////////////////////*/}
         <div  className={utilStyles.flowcontainerheader}> 
-
-          <Link href="/">       
-                <a> <FlowMaker /> </a>
+          
+          <Link href="/">     
+          Flowmaker.art  
+                
           </Link> 
+          {/* <a> <FlowMaker /> </a> */}
           {/* <OrbGeo /> */ }
           
           {/*<p className={utilStyles.resources}> Master the Art of Flow. </p>
@@ -197,18 +216,15 @@ export default function Home({ allPostsData }) {
       */}
 
           
-          <Art />
+          {/*<Art />*/ }
           <Resources /> 
           {/*<Love /> */}
-          <SiteFlowMakers /> 
-          <h3> - Flow - </h3>
           <WhatIsFLow /> 
-          <SiteFlow />
-          <SiteCreativeResources />
+          <Knowings />
           <h3 > - Stuff - </h3>
           <SiteWritings /> 
           <br /> <br /> <br /> 
-          <GoldHeart /> 
+          {/*<GoldHeart /> */} 
      
       </div> 
           

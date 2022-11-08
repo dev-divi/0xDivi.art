@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import SiteFlow from './SiteFlow';
+import SiteFlowMakers from './SiteFlowMakers';
 import utilStyles from '/styles/utils.module.css';
 
 {/*             What is Flow? */}
@@ -40,6 +42,9 @@ const SiteWhatIsFlow = () => {
                 https://medium.com/@0xdivi/what-is-a-flowmaker-1a6d9bd6cd3
                 Flow articles
                 flowmaker articles */}
+
+                <SiteFlow /> 
+                <SiteFlowMakers /> 
       </p> 
         
     );

@@ -25,6 +25,7 @@
   background-color: black;
   text-align: center;
   background-image: url("style_images/woodybetter.png");
+  background-image: url("style_images/mattesand.png");
 
 }
 
@@ -82,6 +83,9 @@
   padding: 10px;
   background-color: white;
   background-image: url("flow_images/woodexperiment.png"); 
+  background-image: url("style_images/moonrectangle.png"); 
+  background-size: 150%;
+
 }
 
 .projectscontainer{  /* PROJECTS PAGE */ 
@@ -89,18 +93,22 @@
   background-color: white;
   color: white;
   background-image: url("style_images/woodybetter.png");
+  
 }
 .chakrapurple{ 
   background-image: url("flow_images/purple_marble_1000x500.png");
   height: 50px;
 }
 .goldbutton_borderdiv {
-  background-image: url("style_images/gold-foil-texture-dark-square.jpg");
+  background-image: black;
+
   width:210px;
   height: 60px;
 }
 .goldbutton{
   background-image: url("style_images/woodybetter.png");
+  background-image: url("style_images/mattesand.png");
+
   width: 200px;
   height: 50px;
   border-radius: 0px;
@@ -115,6 +123,9 @@
 }
 .resources { 
   background-image: url("style_images/woodybetter.png");
+  background-image: url("style_images/mattesand.png");
+  font-family: 'Crimson Text', serif;
+
 }
 .resourcesknow{
   background-image: url("style_images/woodybetter.png");
@@ -139,10 +150,11 @@
   text-align: center; 
 }
 .woodlink{
-  background-image: url("style_images/woodybetter.png");
+  background-image: url("style_images/moon1080.png");
   font-family: 'Crimson Text', serif;
   border-radius: 12px;
-
+  padding-left:10px;
+  padding-right:10px;
   
 }
 .woodlink a{
@@ -155,7 +167,6 @@
 .howto{ 
   font-family: 'Crimson Text', serif;
 
-  background-color: #121212;
   margin:20px;
 }
 .howto a{ 

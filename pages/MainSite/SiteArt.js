@@ -10,12 +10,12 @@ const SiteArt = () => {
      {/* <One /> */}
     return (
         <div> 
-          {/*<div className={artStyles.art_one}></div> */}
+          {/*<div className={artStyles.art_one}></div>
           <div className={artStyles.art_2}></div>
           <div className={artStyles.art_3}></div>
           <div className={artStyles.art_4}></div>
           <div className={artStyles.art_5}></div>
-          <div className={artStyles.art_6}></div>
+          <div className={artStyles.art_6}></div> 
           - Tao Te Ching Wallpapers - 
           <p> - 01 - </p>
           <div className={artStyles.art_7}></div>

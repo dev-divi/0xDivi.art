@@ -11,7 +11,7 @@ const SiteResources = () => {
                     <ul> 
                         <li><a  className={utilStyles.woodlink} 
                         href="https://gretchenrubin.com/books/the-happiness-project/about-the-book/">- The Happiness Project  </a> </li>
-                        <li> - What to do in Life  </li>
+                        <li> - What to Do in Life  </li>
                         <ul>
                             <li>
                             <a  className={utilStyles.woodlink} href="https://youtu.be/wqEsTPaUZF0">- Jordan Peterson Speech - YouTube</a>   </li>

@@ -4,7 +4,7 @@ import utilStyles from '/styles/utils.module.css';
 const SiteCreativeResources = () => {
     return (
         <div >
-            <h3> - Know - </h3>
+            {/*<h3> - Know - </h3> */} 
 
             <p className={utilStyles.resources}>  <br /> 
                 Learn Life Skills <br /> 
