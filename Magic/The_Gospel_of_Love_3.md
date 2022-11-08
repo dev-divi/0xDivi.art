@@ -24,8 +24,6 @@ Due to the author's own limited consciousness, the Gospel of Love 2 surely could
 
 Upon gaining the awareness that the greek 'truth' translates to 'reality', which is as I might translate it in context to awakening, I know that I can look at the orignal greek and translate the Gospel line by line back into its meaning in terms of Eastern thinking, not in terms of how the West interpreted the meaning of scripture. I know that I can do this without adding anything to the words contained within these translations. 
 
-I trust the Berean Literal Bible to start with as it sounds, a literal translation of the bible, as opposed to a translation such as the New International Version, which translates to as Christians understand the text. 
-
 To explain in plain terms the difference between this translation and modern translations, 
 this translation is for the deep. 
 
